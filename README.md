@@ -17,3 +17,6 @@
    No metodo quick sort, um valor 'pivô' é escolhido como valor inicial para a ordenação (geralmente é escolhido o primeiro ou ultimo valor). A partir dele, os elementos são comparados entre si e irão trocar de lugar até
    'alcançarem' o pivô, onde serão organizados acima (maior) ou abaixo (menor) do que ele. Após a primeira execução, vão existir duas  partições - os valores menores e os valores maiores do que o pivô (que estará na sua
    posição correta). Recursivamente, serão escolhidos novos pivôs em ambos os lados até que todos os valores estejam ordenados.
+   
+### coctail_sort --> Algoritmo de ordenação por comparação
+   O método Cocktail Sort, começa comparando os valores da esquerda para a direita, se o valor da direita é menor que o da esquerda, faz-se a troca se for verdadeiro, assim até que não haja mais possibilidade de troca. Quando não há mais valores para trocar, ele volta comparando, mas agora ele trás o menor valor para a esquerda assim sucessivamente(quantas vezes for necessário, ir do começo ao final e voltar) até que o vetor esteja completamente ordenado.
