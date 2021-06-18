@@ -19,3 +19,5 @@
 ### Heapsort 
    É um método de ordenação cujo princípio de funcionamento é o mesmo utilizado para a ordenação por seleção. O heapsort utiliza uma estrutura de dados chamada heap binário para ordenar os elementos à medida que os insere na estrutura. Assim, ao final das inserções, os elementos podem ser sucessivamente removidos da raiz da heap, na ordem desejada.
    A heap pode ser representada como uma árvore (uma árvore binária com propriedades especiais) ou como um vetor. Para uma ordenação decrescente, deve ser construída uma heap mínima (o menor elemento fica na raiz). Para uma ordenação crescente, deve ser construído uma heap máxima (o maior elemento fica na raiz).
+   
+   alessandro
